@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:NonVerboseOutput >--------------------
+[INFO] Building NonVerboseOutput 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ NonVerboseOutput ---
+[INFO] org.example:NonVerboseOutput:jar:1.0-SNAPSHOT
+[INFO] +- jdom:jdom:jar:1.0:compile
+[INFO] +- com.google.guava:guava:jar:23.0-android:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+[INFO] \- com.google.cloud:google-cloud-storage:jar:1.108.0:compile
+[INFO]    +- com.google.http-client:google-http-client:jar:1.35.0:compile
+[INFO]    |  +- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+[INFO]    |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO]    |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO]    |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO]    |  \- io.opencensus:opencensus-contrib-http-util:jar:0.24.0:compile
+[INFO]    +- com.google.http-client:google-http-client-jackson2:jar:1.35.0:compile
+[INFO]    |  \- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+[INFO]    +- com.google.api-client:google-api-client:jar:1.30.9:compile
+[INFO]    |  \- com.google.oauth-client:google-oauth-client:jar:1.30.5:compile
+[INFO]    +- com.google.apis:google-api-services-storage:jar:v1-rev20200326-1.30.9:compile
+[INFO]    +- com.google.code.gson:gson:jar:2.8.6:compile
+[INFO]    +- com.google.cloud:google-cloud-core:jar:1.93.4:compile
+[INFO]    |  +- com.google.auto.value:auto-value-annotations:jar:1.7:compile
+[INFO]    |  \- com.google.api.grpc:proto-google-common-protos:jar:1.17.0:compile
+[INFO]    +- com.google.cloud:google-cloud-core-http:jar:1.93.4:compile
+[INFO]    |  +- com.google.http-client:google-http-client-appengine:jar:1.34.2:compile
+[INFO]    |  \- com.google.api:gax-httpjson:jar:0.73.0:compile
+[INFO]    +- com.google.api:gax:jar:1.56.0:compile
+[INFO]    +- com.google.auth:google-auth-library-credentials:jar:0.20.0:compile
+[INFO]    +- com.google.auth:google-auth-library-oauth2-http:jar:0.20.0:compile
+[INFO]    +- com.google.api:api-common:jar:1.9.0:compile
+[INFO]    |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    +- io.opencensus:opencensus-api:jar:0.24.0:compile
+[INFO]    |  \- io.grpc:grpc-context:jar:1.22.1:compile
+[INFO]    +- com.google.api.grpc:proto-google-iam-v1:jar:0.13.0:compile
+[INFO]    +- com.google.protobuf:protobuf-java:jar:3.11.4:compile
+[INFO]    +- com.google.protobuf:protobuf-java-util:jar:3.11.4:compile
+[INFO]    \- org.threeten:threetenbp:jar:1.4.4:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.932 s
+[INFO] Finished at: 2020-05-25T10:44:03-04:00
+[INFO] ------------------------------------------------------------------------
